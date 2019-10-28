@@ -1,1 +1,1 @@
-# Excersising PHP patterns and templates.
+# Exercising PHP patterns and templates.
