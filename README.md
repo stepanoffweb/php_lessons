@@ -1,1 +1,1 @@
-# PHP_lessons from Glo Academy
+# Exercising PHP patterns and templates.
