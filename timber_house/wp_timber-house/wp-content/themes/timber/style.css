@@ -97,12 +97,18 @@ body {
     padding-bottom: 140px;
 }
 .project__item {
+    font-size: 25px;
     margin-bottom: 110px;
     padding: 0;
 }
 .project__name {
     font-weight: 700;
     font-size: 32px;
+}
+.project__price {
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #17753b;
 }
 .project ul {
     list-style: none;

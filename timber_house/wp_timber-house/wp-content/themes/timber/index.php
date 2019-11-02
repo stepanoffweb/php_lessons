@@ -20,15 +20,12 @@
                                 </div>
                                 <div class="project__size">
                                     <?php the_field('project__size'); ?>
-                                     Размер дома: 6 x 6
                                 </div>
                                 <div class="project__area">
                                     <?php the_field('project__area'); ?>
-                                     Общая площадь дома: 54 кв. м
                                 </div>
                                 <div class="project__price">
                                     <?php the_field('project__price'); ?>
-                                     Стоимость - 402 000 рублей
                                 </div>
                                 <div class="project__images">
                                      <div class="project__images-item"><img src="<?php the_field('project__images-item-1'); ?>" alt="вид дома"></div>
@@ -37,7 +34,9 @@
                             </li>
                         <?php endforeach; ?>
                         </ul>
-                    <?php endif; ?>
+                    <?php endif;
+                    wp_reset_postdata(); // сброс ?>
+
             </div>
             <!-- /.project -->
         </div>

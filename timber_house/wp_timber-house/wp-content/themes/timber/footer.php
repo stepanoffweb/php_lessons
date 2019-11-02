@@ -13,3 +13,4 @@
 </body>
 
 </html>
+Запросов <?php echo get_num_queries(); ?>
