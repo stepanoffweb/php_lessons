@@ -49,9 +49,7 @@ Temporary Items
 /coverage
 
 # production
-/build
-/dist/
-
+**/site/
 
 # misc
 .env.local
@@ -59,13 +57,9 @@ Temporary Items
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
 **/references
 **/*.psd
 **/*.txt
 **/*.pdf
 /**/_backstage
-/**/package-lock.json
+

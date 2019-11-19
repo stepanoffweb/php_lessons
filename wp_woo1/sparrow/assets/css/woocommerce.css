@@ -1,0 +1,72 @@
+header {
+    background: rgba(0,0,0,0);
+}
+h1.page-title {
+    color: #11ABB0;
+    text-align: center;
+}
+
+ul.products {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+li.type-product {
+    width: 25% ;
+    height: 450px;
+    border: 1px solid green;
+
+}
+span.price {
+    height: 100%;
+    margin-right: 35px;
+}
+a.add_to_cart_button {
+    display: none;
+}
+/*плашка выбора вверху*/
+.site-main-line {
+    background-color: #eee;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+}
+.woocommerce-notices-wrapper {
+    display: none;
+}
+.site-main-line .woocommerce-result-count, .site-main-line .woocommerce-ordering, .site-main-line .orderby {
+    margin: 0;
+    padding: 0;
+    /*display: inline-block;
+    vertical-align: center;*/
+}
+.site-main-line .woocommerce-result-count {
+    height: 60px;
+    line-height: 60px;
+}
+.site-main-line .woocommerce-ordering {
+    height: 40px;
+    background-color: #ccc;
+    margin: auto 0;
+    border-radius: 20px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+.site-main-line .orderby {
+    background-color: #ccc;
+    margin: 0 10px;
+    width: 230px;
+}
+
